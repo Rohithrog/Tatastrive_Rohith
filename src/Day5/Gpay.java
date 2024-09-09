@@ -3,6 +3,8 @@ package Day5;
 import java.util.ArrayList;
 
 public abstract class Gpay {
+	
+	
 	private ArrayList <String> Transcation = new ArrayList <String>();
 	
 	public abstract void makePayment(double amount);
